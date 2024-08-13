@@ -14,10 +14,10 @@ const ProfileCard = () => (
           />
         </div>
       </div>
-      <div className="flex-1 flex flex-col justify-top pl-6 mt-5"> {/* Adjusted margin */}
+      <div className="flex-1 flex flex-col justify-top pl-6 mt-5">
         <div className="text-center md:text-left">
           <p className="text-lg font-medium mb-4">
-            Hi, I'm a chemist, currently transitioning to web development. With a background in analytical chemistry, I&rsquo;m bringing a methodical approach to learning web technologies. I&rsquo;m excited to merge my analytical skills with creative problem-solving as I explore the dynamic field of web development.
+            Hi, I&apos;m a chemist, currently transitioning to web development. With a background in analytical chemistry, I&apos;m bringing a methodical approach to learning web technologies. I&apos;m excited to merge my analytical skills with creative problem-solving as I explore the dynamic field of web development.
           </p>
           <figcaption className="font-medium mt-4">
             <div className="text-sky-500 dark:text-sky-400">
@@ -34,5 +34,3 @@ const ProfileCard = () => (
 );
 
 export default ProfileCard;
-
-
