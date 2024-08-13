@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 const ProfileCard = () => (
-  <div className="min-h-screen bg-white flex items-top center justify-center">
+  <div className="min-h-screen bg-white flex items-top justify-center">
     <figure className="flex bg-blue-100 rounded-xl p-8 dark:bg-zinc-700">
       <div className="flex-shrink-0">
         <div className="relative w-24 h-24 md:w-48 md:h-48">
@@ -11,6 +11,7 @@ const ProfileCard = () => (
             alt="Anasbilal"
             layout="fill"
             objectFit="cover"
+            priority // Ensure the image is loaded quickly
           />
         </div>
       </div>
